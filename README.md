@@ -5,7 +5,9 @@ POC :-
 Create deployment which will run a pod, mount a volume and store a temp.txt file or html file in volume.
 Then delete pod and once new pod is created as a part of same deployment, 
 then you should still be able to see or access abc.txt or html file which was created in old pod.
+
 AccessModes : RWO
+
 PV autocreation with storageClass will be kind of building block for real-world implementation
 
 Solution:
