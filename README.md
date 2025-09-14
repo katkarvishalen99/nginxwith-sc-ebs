@@ -43,6 +43,14 @@ eksctl create addon \
   --cluster eks-cluster \
   --region ap-south-1
 
+# Delete IRSA
+
+eksctl delete iamserviceaccount \
+  --name ebs-csi-controller-sa \
+  --namespace kube-system \
+  --cluster eks-cluster \
+  --region ap-south-1
+
 aws iam get-role --role-name eksctl-eks-cluster-addon-iamserviceaccount-ku-Role1-dHiYYSjWS7cD 
 
 check oidc of cluster and update oidc in role trust policy
