@@ -66,4 +66,18 @@ EKS CLUSTER:
 
 
 
+All YAML Files:
+
+[yamlfiles.txt](https://github.com/user-attachments/files/22320813/yamlfiles.txt)
+
+
+POC complete solution:
+
+[POC 4 PV-PVC-storageclass.docx](https://github.com/user-attachments/files/22320810/POC.4.PV-PVC-storageclass.docx)
+
+
+
+
+
+
   
