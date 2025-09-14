@@ -45,7 +45,17 @@ eksctl create addon \
 
 aws iam get-role --role-name eksctl-eks-cluster-addon-iamserviceaccount-ku-Role1-dHiYYSjWS7cD 
 
-check oid of cluster and update oidc in role trust policy
+check oidc of cluster and update oidc in role trust policy
+
+IRSA and trust policy:
+
+<img width="1870" height="656" alt="image" src="https://github.com/user-attachments/assets/75f34192-35ca-4103-b7ed-7655e39055a9" />
+
+EKS CLUSTER:
+
+<img width="1903" height="766" alt="image" src="https://github.com/user-attachments/assets/82533914-aff6-434f-a82f-18925f539fdc" />
+
+
 
 
   
