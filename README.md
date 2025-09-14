@@ -36,4 +36,16 @@ eksctl create addon \
   --region ap-south-1 \
   --force
 
+# Delete CSI driver:
+
+  eksctl delete addon \
+  --name aws-ebs-csi-driver \
+  --cluster eks-cluster \
+  --region ap-south-1
+
+aws iam get-role --role-name eksctl-eks-cluster-addon-iamserviceaccount-ku-Role1-dHiYYSjWS7cD 
+
+check oid of cluster and update oidc in role trust policy
+
+
   
